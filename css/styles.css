@@ -10183,13 +10183,45 @@ header.masthead .masthead-subheading {
   line-height: 1.5rem;
   margin-bottom: 25px;
   font-family: "sans-serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-shadow: 4px 4px #002b00;
 }
+
 header.masthead .masthead-heading {
   font-size: 1.25rem;
   font-weight: 70;
   line-height: 3.25rem;
   margin-bottom: 2rem;
   font-family: "sans-serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@media (max-width: 760px) {
+  header.masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 20.5rem;
+
+
+  }
+  header.masthead .masthead-subheading {
+    font-size: 3.25rem;
+	font-weight: 650;
+    padding-bottom: 10rem;
+
+
+  }
+
+#btn1{
+  width: 14rem;
+  border-radius: 50px;
+
+}
+
+#FAQ li{
+  list-style-type: none;
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  font-size: 1.25rem;
+}
 }
 
 @media (min-width: 768px) {
