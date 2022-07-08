@@ -10179,9 +10179,9 @@ letter-spacing: 0.0625em;
 
 #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
   font-family: 'Poppins', sans-serif;
-font-size: 16px;
-font-weight: 700;
-color: #000;
+font-size: 14px;
+font-weight: 500;
+color: #fff;
 display:inline-block;
 line-height: 35px;
 text-align: center;
@@ -10192,7 +10192,7 @@ letter-spacing: 0.0625em;
   color: #f4c095;
 }
 #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link.active, #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
-  color: #AAde87;
+  color: #f4c095;
 }
 .navbar-toggler:focus,
 .navbar-toggler:active,
